@@ -1,6 +1,6 @@
 # Task Management API
 
-This is a simple Task Management API built with Node.js, Express, and MongoDB.
+This is a Task Management APIs built with Node.js, Express, and MongoDB.
 
 ## Features
 
@@ -10,11 +10,6 @@ This is a simple Task Management API built with Node.js, Express, and MongoDB.
 - Users can update task details.
 - Users can delete tasks.
 
-## Installation
-
-1. Clone the repository.
-2. Install dependencies:
-
 ## API Endpoints
 
 - `POST /api/tasks`: Create a task.
@@ -23,7 +18,6 @@ This is a simple Task Management API built with Node.js, Express, and MongoDB.
 - `PUT /api/tasks/:id`: Update task details.
 - `DELETE /api/tasks/:id`: Delete a task.
 
-## Key Decisions
+## Task Schema
 
-- **Mongoose** was used for MongoDB interaction to take advantage of schema validation.
-- Input validation and error handling were implemented to ensure robust operations.
+-
