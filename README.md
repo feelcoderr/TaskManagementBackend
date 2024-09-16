@@ -20,4 +20,7 @@ This is a Task Management APIs built with Node.js, Express, and MongoDB.
 
 ## Task Schema
 
--
+- {
+  title : String,
+  description : String,
+  }
